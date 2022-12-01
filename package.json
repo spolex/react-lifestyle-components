@@ -2,7 +2,7 @@
   "author": "spolex",
   "license": "MIT",
   "name": "react-spstrap",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Components library based on bootstrap",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
