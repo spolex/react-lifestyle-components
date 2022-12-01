@@ -1,0 +1,24 @@
+.table.table-hover.table-bordered tr:hover {
+  /* selector strong enough to overwrite bootsrap rule */
+  background: none; /* remove bg */
+}
+
+.table.table-hover.table-bordered tr:hover {
+  background: none;
+}
+td:hover {
+  background: limegreen;
+}
+/* a few selector examples */
+td[colspan]:hover {
+  background: lime;
+}
+td[colspan] + td[colspan]:hover {
+  background: turquoise;
+}
+td[colspan='2']:hover {
+  background: gold;
+}
+td[rowspan]:hover {
+  background: tomato;
+}
